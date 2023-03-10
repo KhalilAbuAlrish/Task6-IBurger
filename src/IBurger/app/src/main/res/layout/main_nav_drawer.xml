@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+
+    android:background="@drawable/menu_bg"
+    >
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/menu_1"
+        android:layout_gravity="right|top"
+        android:layout_margin="15dp"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        >
+
+
+        <TextView
+            android:id="@+id/nav_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="H O M E"
+            android:textColor="@color/Dark_Gray"
+            android:textSize="25sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="P R O F I L E"
+            android:textColor="@color/Dark_Gray"
+            android:textSize="25sp"
+            android:id="@+id/nav_profile"
+            android:layout_margin="15dp"
+
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="B U R G E R"
+            android:textColor="@color/Dark_Gray"
+            android:textSize="25sp"
+            android:id="@+id/nav_burger"
+            android:layout_margin="15dp"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="S N A K S"
+            android:textColor="@color/Dark_Gray"
+            android:textSize="25sp"
+            android:id="@+id/nav_snaks"
+            android:layout_margin="15dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="O R D E R S"
+            android:textColor="@color/Dark_Gray"
+            android:textSize="25sp"
+            android:id="@+id/nav_orders"
+            android:layout_margin="15dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="L O C A T I O N S"
+            android:textColor="@color/Dark_Gray"
+            android:textSize="25sp"
+            android:id="@+id/nav_locations"
+            android:layout_margin="15dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="L O G O U T"
+            android:textColor="@color/Orange"
+            android:textSize="25sp"
+            android:id="@+id/nav_logout"
+            android:layout_margin="30dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

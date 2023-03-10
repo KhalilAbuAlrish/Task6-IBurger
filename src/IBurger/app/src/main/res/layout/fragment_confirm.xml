@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.ConfirmFragment"
+    android:background="@drawable/done"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:id="@+id/layout_action_confirm"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        >
+
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_back"
+            android:id="@+id/btn_back_profile"
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            android:gravity="center"
+            android:textColor="@color/green"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:src="@drawable/item_3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:src="@drawable/i_burger_small"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:id="@+id/burger"
+        />
+
+
+    <TextView
+        android:id="@+id/text_confirm_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/burger"
+        android:text="ORDER\nCONFORMED"
+        android:gravity="center"
+        android:textColor="@color/Orange"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/confirmation"
+        android:id="@+id/check"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="120dp"
+        />
+
+
+</RelativeLayout>
+
+
